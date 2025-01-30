@@ -16,8 +16,10 @@ int is_full() { return (stack_top == MAX_STACK_SIZE - 1); }
 
 void push(Element e)
 {
-    if (is_full())
+    if (is_full()) {
         printf("스택 포화 에러");
+        return;
+    }
     else
         data[++stack_top] = e; // top 증가 후 데이터 입력
 }
