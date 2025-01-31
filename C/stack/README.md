@@ -12,7 +12,10 @@
 - pop() : 스택 상단에 있는 요소를 삭제하고 반환한다.
 - peek() : 스택 상단에 있는 요소를 삭제하지 않고 반환한다.
 
-# stack_dynamicMemory ADT
+# stack_dynamicMemory 
+stack을 동적 메모리를 활용해서 구현했습니다.
+
+# stack_dynamicMemory  ADT
 
 ## data
 - 정수형 동적메모리
